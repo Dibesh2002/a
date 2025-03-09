@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 70% 98%;
+    --foreground: 222 47% 11%;
+    --card: 220 70% 98%;
+    --card-foreground: 222 47% 11%;
+    --popover: 220 70% 98%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 222 47% 11%;
+    --primary-foreground: 220 70% 98%;
+    --secondary: 220 30% 90%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 220 30% 90%;
+    --muted-foreground: 220 10% 40%;
+    --accent: 220 30% 90%;
+    --accent-foreground: 222 47% 11%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 220 70% 98%;
+    --border: 220 30% 90%;
+    --input: 220 30% 90%;
+    --ring: 222 47% 11%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 220 70% 98%;
+    --card: 222 47% 11%;
+    --card-foreground: 220 70% 98%;
+    --popover: 222 47% 11%;
+    --popover-foreground: 220 70% 98%;
+    --primary: 220 70% 98%;
+    --primary-foreground: 222 47% 11%;
+    --secondary: 220 30% 20%;
+    --secondary-foreground: 220 70% 98%;
+    --muted: 220 30% 20%;
+    --muted-foreground: 220 10% 70%;
+    --accent: 220 30% 20%;
+    --accent-foreground: 220 70% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 220 70% 98%;
+    --border: 220 30% 20%;
+    --input: 220 30% 20%;
+    --ring: 220 70% 98%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.hero-image {
+  background-image: url("/hero-architecture.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.project-card:hover img {
+  transform: scale(1.05);
+  transition: transform 0.5s ease;
+}
+
+.project-card img {
+  transition: transform 0.5s ease;
+}
+
