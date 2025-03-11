@@ -47,7 +47,7 @@ export default function ServicesPage() {
                 title: "Interior Design",
                 description:
                   "Transform your spaces with our interior design services that blend functionality with aesthetics.",
-                image: "/placeholder.svg?height=400&width=600",
+                image: "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1?height=400&width=600",
                 features: [
                   "Space planning and layout",
                   "Material and finish selection",
@@ -59,7 +59,7 @@ export default function ServicesPage() {
               {
                 title: "Urban Planning",
                 description: "Comprehensive urban planning solutions that create sustainable and livable communities.",
-                image: "/placeholder.svg?height=400&width=600",
+                image: "https://images.pexels.com/photos/29870940/pexels-photo-29870940/free-photo-of-aerial-view-of-kathmandu-cityscape-in-nepal.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1?height=400&width=600",
                 features: [
                   "Master planning",
                   "Land use analysis",
@@ -72,7 +72,7 @@ export default function ServicesPage() {
                 title: "Landscape Design",
                 description:
                   "Create harmonious outdoor spaces that complement your architecture and enhance the environment.",
-                image: "/placeholder.svg?height=400&width=600",
+                image: "https://images.pexels.com/photos/20434916/pexels-photo-20434916/free-photo-of-greenhouses-and-farm-fields-from-a-birds-eye-view.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1?height=400&width=600",
                 features: [
                   "Site analysis and planning",
                   "Planting design",
@@ -85,7 +85,7 @@ export default function ServicesPage() {
                 title: "Construction Management",
                 description:
                   "Expert oversight of your construction project to ensure quality, timeliness, and budget adherence.",
-                image: "/placeholder.svg?height=400&width=600",
+                image: "https://i.postimg.cc/dVmk28Xj/9.jpg?height=400&width=600",
                 features: [
                   "Project scheduling and coordination",
                   "Budget management",
@@ -97,7 +97,7 @@ export default function ServicesPage() {
               {
                 title: "Sustainable Design",
                 description: "Environmentally conscious design solutions that minimize impact and maximize efficiency.",
-                image: "/placeholder.svg?height=400&width=600",
+                image: "https://images.pexels.com/photos/31047259/pexels-photo-31047259/free-photo-of-cozy-bamboo-furniture-lounge-setup-indoors.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1?height=400&width=600",
                 features: [
                   "Energy-efficient building design",
                   "Green building certification",
@@ -347,7 +347,7 @@ export default function ServicesPage() {
                 <Button size="lg" variant="secondary" asChild>
                   <Link href="/contact">Get in Touch</Link>
                 </Button>
-                <p className="text-sm text-primary-foreground/80">Or call us at +1 (555) 123-4567</p>
+                <p className="text-sm text-primary-foreground/80">Or call us at +977-01-6631451, 9841796798</p>
               </div>
             </div>
           </div>

@@ -206,7 +206,7 @@ export default function Home() {
                 description:
                   "From concept to completion, we create innovative designs that reflect your vision and requirements.",
                 image:
-                  "https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+                  "https://i.postimg.cc/t4ZD9Rrx/7.jpg",
               },
               {
                 title: "Interior Design",
@@ -219,28 +219,28 @@ export default function Home() {
                 title: "Urban Planning",
                 description: "Comprehensive urban planning solutions that create sustainable and livable communities.",
                 image:
-                  "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+                  "https://images.pexels.com/photos/18084655/pexels-photo-18084655/free-photo-of-birds-eye-view-of-city.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
               },
               {
                 title: "Landscape Design",
                 description:
                   "Create harmonious outdoor spaces that complement your architecture and enhance the environment.",
                 image:
-                  "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+                  "https://nepaltraveller.com/laravel-filemanager/photos/78/Nature/Garden.jpg",
               },
               {
                 title: "Heritage Conservation",
                 description:
                   "Preserving cultural heritage through thoughtful restoration and adaptive reuse of historic structures.",
                 image:
-                  "https://images.unsplash.com/photo-1529307474719-3d0a417aaf8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+                  "https://images.pexels.com/photos/8816847/pexels-photo-8816847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
               },
               {
                 title: "Rural Development",
                 description:
                   "Sustainable development solutions for rural areas that respect local traditions and environment.",
                 image:
-                  "https://images.unsplash.com/photo-1513735492246-483525079686?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+                  "https://images.pexels.com/photos/29067908/pexels-photo-29067908/free-photo-of-scenic-aerial-view-of-bidur-nepal-landscape.jpeg",
               },
             ].map((service, index) => (
               <motion.div

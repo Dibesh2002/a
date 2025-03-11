@@ -85,43 +85,43 @@ export default function AboutPage() {
           <div className="mt-12 grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {[
               {
-                name: "Rahul Sharma",
-                role: "Principal Architect & Founder",
+                name: "Ram Shrestha",
+                role: "Chief Architect & Founder",
                 image: "https://i.postimg.cc/3xG8J0c2/ram.jpg?height=400&width=400",
               },
               {
-                name: "Priya Patel",
-                role: "Senior Architect",
+                name: "Milan Bangale",
+                role: "Senior Civil Enginner",
                 image: "https://i.postimg.cc/MHXxknBM/milan.jpg?height=400&width=400",
               },
               {
-                name: "Amit Kumar",
-                role: "Interior Design Lead",
+                name: "Shankar Prajapati",
+                role: "Civil Engineer",
                 image: "https://i.postimg.cc/B6mswTjf/sankar.jpg?height=400&width=400",
               },
               {
-                name: "Neha Singh",
-                role: "Urban Planning Specialist",
+                name: "Dilip Kumar Gasi",
+                role: "Structural Engineer",
                 image: "https://i.postimg.cc/jdpT9dS2/dilip.jpg?height=400&width=400",
               },
               {
-                name: "Vikram Mehta",
+                name: "Hare Ram Shrestha",
                 role: "Project Manager",
                 image: "https://i.postimg.cc/nr5xnnKd/hare.jpg?height=400&width=400",
               },
               {
-                name: "Ananya Gupta",
-                role: "Landscape Architect",
+                name: "Jagadesh Shrestha",
+                role: "Sociologist",
                 image: "/placeholder.svg?height=400&width=400",
               },
               {
-                name: "Rajesh Verma",
+                name: "Binod Shrestha Shrestha",
                 role: "Sustainability Consultant",
                 image: "https://i.postimg.cc/bw1PjcZT/binod.jpg?height=400&width=400",
               },
               {
-                name: "Sonia Kapoor",
-                role: "3D Visualization Expert",
+                name: "Puspa Ram Shrestha",
+                role: "Architect",
                 image: "/placeholder.svg?height=400&width=400",
               },
             ].map((member, index) => (
